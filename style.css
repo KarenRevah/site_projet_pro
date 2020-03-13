@@ -1,0 +1,128 @@
+body {
+	background-color: #F5F5F5;
+	margin:0;font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	width:100%;
+	height:600px;
+	background-image: url("banniere_enceinte.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    margin-bottom: 60px;
+}
+
+h1 {
+	color:black;
+    font-weight: 600;
+	font-size:35px;
+	position: absolute; /* peut être placé où on veut en fonction de la position relative */
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding:12px;
+    letter-spacing: 1px;
+}
+.header h2 {
+    color:black;
+    position: absolute;
+	top:50%;
+	left:50%;
+    padding-top: 100px;
+    transform: translateX(-50%) translateY(-50%);
+    font-style: normal;
+    text-align:center;
+	text-transform:none;
+    font-size: 15px;
+    font-weight: 100;
+}
+.nav {
+	width:100%;
+	height: 80px;
+}
+.nav ul {
+	padding: 0;
+	margin: 0;
+	text-align:center;
+    color: black;
+
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 20px; 
+	line-height: 80px;
+	font-size:13px;
+	color: black;
+}
+
+
+
+.container {
+	width:1000px;
+	margin: auto; /* Margin:auto permet de centrer un bloc dans la page */
+	padding-top: 40px;
+	padding-bottom: 40px;
+    background-color: #F5F5F5;
+    text-align: center;
+
+}
+
+.info {
+	display: inline-block;
+    width: auto;
+	background-color:#F5F5F5;
+    top: 50%;
+    left: 50%;
+	text-align:justify;
+    color:black;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+.info h3 {
+	font-size:16px;
+	font-weight:700;
+    padding-top: 6px;
+    
+}
+
+.info p {
+	font-size:13px;
+    line-height: 150%;
+    padding-bottom: 4px;
+}
+
+
+
+.image{
+    background-size:100%;
+    
+    
+}
+
+.image img {
+    width: 250px;
+    height: 160px;
+    
+    }
+
+    
+
+.footer {
+	background-color:black;
+	width:100%;
+}
+
+.footer p {
+	text-align:center;
+	color:white;
+	font-size:12px;
+	font-weight:50;
+	padding:20px 0; 
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
